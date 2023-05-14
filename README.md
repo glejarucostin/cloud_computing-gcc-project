@@ -77,3 +77,6 @@ Pagina de inserare a datelor in MongoDB
 ![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/070dcb94-8dbe-48cb-aa01-f76dc54f9283)
 
 ![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/41ac5b9d-11f3-43c3-a4a8-c986d681734a)
+
+
+Site-ul pe care se gaseste aplicatia cu deployment: cloud-computing-gcc-project-ku8hew2a1-glejarucostin.vercel.app
