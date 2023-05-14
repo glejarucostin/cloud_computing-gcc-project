@@ -42,6 +42,10 @@ Un sistem de livrare continuă (Continuous Delivery), care permite dezvoltatoril
 
 ![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/1b4956cd-e6d1-4ed3-a879-3273f0dc70f3)
 
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/9ff72fdf-a4ea-448b-aa49-b218050740d5)
+
+
 Un alt serviciu de Cloud folosit in acest proiect este MongoDb Compass. 
 
 MongoDB Compass este o aplicație desktop și web care oferă o interfață grafică de utilizator pentru administrarea bazelor de date MongoDB. Aceasta oferă o gamă largă de caracteristici utile pentru gestionarea, vizualizarea și analiza datelor stocate în bazele de date MongoDB.
