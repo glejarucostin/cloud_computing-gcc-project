@@ -25,7 +25,38 @@ Operația Update (U) se referă la actualizarea datelor existente în sistemul d
 Operația Delete (D) se referă la ștergerea datelor din sistemul de stocare de date. De exemplu, ștergerea unei înregistrări existente dintr-o bază de date.
 
 În ceea ce privește REST API, operațiile CRUD sunt folosite pentru a manipula resursele disponibile prin intermediul API-ului. De exemplu, prin intermediul unei cereri HTTP POST către un endpoint specific al API-ului, se poate crea o nouă resursă în sistemul de stocare de date. Prin intermediul unei cereri HTTP GET către același endpoint, se poate citi o resursă existentă. Prin intermediul unei cereri HTTP PUT sau PATCH se poate actualiza o resursă existentă și prin intermediul unei cereri HTTP DELETE se poate șterge o resursă existentă.
-image.png
 
+![Screenshot 2023-05-14 134328](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/64abf14d-3df9-46c6-ac3c-4584dc49425b)
 
-Printre tehnologiile de la 
+Printre serviciile de cloud folosite se numara Vercel si Mongodb. Vercel este Vercel Cloud Computing este un serviciu oferit de platforma Vercel care permite dezvoltatorilor să ruleze aplicații web într-un mediu de cloud computing. Cloud computing-ul se referă la furnizarea de servicii de calcul, stocare și rețea prin intermediul internetului, în loc să fie gestionate local pe computerele sau serverele fizice.
+
+Prin intermediul Vercel Cloud Computing, dezvoltatorii pot să își ruleze aplicațiile web și site-urile într-un mediu scalabil și sigur, fără a fi nevoie să configureze și să gestioneze un server propriu-zis. Aplicațiile sunt rulate pe infrastructura cloud a Vercel, care este gestionată automat și care se poate scala orizontal pentru a face față cererilor de trafic mai mari.
+
+În plus, Vercel Cloud Computing oferă un set de caracteristici și instrumente utile pentru dezvoltarea și gestionarea aplicațiilor web. Aceste caracteristici includ:
+
+Integrare cu platforme și tehnologii populare de dezvoltare web, precum React, Next.js, Vue.js, Angular, Gatsby și multe altele.
+Suport pentru baze de date, autentificare, funcții de tip serverless și alte caracteristici utile pentru dezvoltarea de aplicații web moderne.
+Un sistem de control al versiunilor, care permite dezvoltatorilor să gestioneze și să controleze evoluția codului sursă al aplicației.
+Un sistem de livrare continuă (Continuous Delivery), care permite dezvoltatorilor să încarce, să testeze și să livreze aplicațiile web la utilizatori într-un mod automat și sigur.
+În concluzie, Vercel Cloud Computing este un serviciu puternic și versatil pentru dezvoltarea și rularea de aplicații web în cloud, care oferă o gamă largă de caracteristici utile și ușor de utilizat pentru dezvoltatorii de aplicații web.
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/1b4956cd-e6d1-4ed3-a879-3273f0dc70f3)
+
+Un alt serviciu de Cloud folosit in acest proiect este MongoDb Compass. 
+
+MongoDB Compass este o aplicație desktop și web care oferă o interfață grafică de utilizator pentru administrarea bazelor de date MongoDB. Aceasta oferă o gamă largă de caracteristici utile pentru gestionarea, vizualizarea și analiza datelor stocate în bazele de date MongoDB.
+
+MongoDB Compass Cloud Computing este o extensie a acestei aplicații care permite dezvoltatorilor să administreze bazele de date MongoDB dintr-un mediu de cloud computing. Aceasta oferă următoarele caracteristici:
+
+Acces la baze de date MongoDB din orice locație și prin intermediul oricărui dispozitiv, fără a fi nevoie să instalați aplicația MongoDB Compass pe fiecare dispozitiv.
+Scalabilitate, care permite gestionarea bazei de date MongoDB într-un mod mai eficient și mai flexibil.
+Securitate îmbunătățită prin utilizarea unui sistem de autentificare și autorizare pentru accesul la baza de date MongoDB.
+În plus, MongoDB Compass Cloud Computing oferă integrare cu alte servicii și tehnologii de cloud computing, cum ar fi Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure și multe altele. Această integrare permite dezvoltatorilor să ruleze și să gestioneze bazele de date MongoDB într-un mediu de cloud computing, fără a fi nevoie să configureze și să gestioneze un server propriu-zis.
+
+În concluzie, MongoDB Compass Cloud Computing este o extensie puternică și versatilă pentru aplicația desktop și web MongoDB Compass, care oferă o gamă largă de caracteristici utile pentru gestionarea bazei de date MongoDB într-un mediu de cloud computing.
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/72d7903d-0a4b-4387-96ac-f796ba33bae4)
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/ebf09150-d8d6-4be9-9cf3-7f0c6459ff1d)
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/ffccb8fc-4177-42a2-81ce-8a5807125565)
