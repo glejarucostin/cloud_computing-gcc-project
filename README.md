@@ -64,3 +64,16 @@ Securitate îmbunătățită prin utilizarea unui sistem de autentificare și au
 ![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/ebf09150-d8d6-4be9-9cf3-7f0c6459ff1d)
 
 ![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/ffccb8fc-4177-42a2-81ce-8a5807125565)
+
+
+Aplicatia rulata in Visual Studio Code, pe [localhost](http://localhost:3000/), si arata in felul urmator:
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/ef4d0a48-e3e1-49de-89df-cd0c050e941b)
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/1156d19d-399f-479e-a22b-213557456fff)
+
+Pagina de inserare a datelor in MongoDB
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/070dcb94-8dbe-48cb-aa01-f76dc54f9283)
+
+![image](https://github.com/glejarucostin/cloud_computing-gcc-project/assets/20753397/41ac5b9d-11f3-43c3-a4a8-c986d681734a)
