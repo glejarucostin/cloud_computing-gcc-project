@@ -26,9 +26,8 @@ export default function InsertPage() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
-        <h1 className="w-[500px] mx-auto text-center text-6xl">Cloud Computing App</h1>
         <p className="w-[1000px] mx-auto text-center mt-4 text-3xl">
-          This app helps user to find info's about artist
+           This page helps admin to add info about artists
         </p>
 
         <form>
