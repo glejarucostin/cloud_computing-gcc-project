@@ -42,8 +42,7 @@ export default function MainPage() {
 	return (
 		<section className="bg-white dark:bg-gray-900">
 			<div className="container px-6 py-10 mx-auto">
-				<h1 className="w-[500px] mx-auto text-center text-6xl">Cloud Computing Project</h1>
-				<p className="w-[1000px] mx-auto text-center mt-4 text-3xl">Info's about artists</p>
+				<p className="w-[1000px] mx-auto text-center mt-4 text-3xl">Info's about artists of Untold Festival</p>
 
 				<div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-3">
 					{records.map(record => (
@@ -53,6 +52,7 @@ export default function MainPage() {
 							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 								{record.name}
 							</h5>
+              <img class="h-auto max-w-full" src={record.image} alt="image of artist"></img>
 							<p className="font-normal text-gray-700 dark:text-gray-400">
 								{record.description}
 							</p>

@@ -1,7 +1,7 @@
-// pages/api/records.js
-import {sendMethodNotAllowed, sendOk,} from '@/js/utils/apiMethods.js';
+import {sendMethodNotAllowed, sendOk} from "@/js/utils/apiMethods";
 import {getCollection} from "@/js/utils/functions";
 import {ObjectId,} from 'mongodb';
+
 const COLLECTION_NAME = 'records';
 
 const getRecords = async () => {
@@ -9,7 +9,7 @@ const getRecords = async () => {
 	return collection.find({}).toArray();
 }
 
-const getRecord = async (id) => {
+const getOneRecord = async (id) => {
 	const collection = await getCollection(COLLECTION_NAME);
 	return collection.findOne({_id: new ObjectId(id)});
 }
@@ -32,34 +32,34 @@ const deleteRecord = async (id) => {
 }
 
 export default async function handler(req, res) {
-
 	const isAllowedMethod = req.method === 'GET' || req.method === 'POST' || req.method === 'PUT' || req.method === 'DELETE';
-	if(!isAllowedMethod) {
-		return sendMethodNotAllowed(res);
+
+	if (!isAllowedMethod) {
+		return sendMethodNotAllowed()
 	}
 
-	if(req.method === 'GET' && req.query.id) {
+	if(req.method === 'GET' && req.query.id){
 		const id = req.query.id;
-		const record = await getRecord(id);
+		const record = await getOneRecord(id);
 		return sendOk(res, record);
 	}
-	else if(req.method === 'GET') {
+	else if(req.method === 'GET'){
 		const records = await getRecords();
 		return sendOk(res, records);
 	}
-	else if(req.method === 'POST') {
+	else if (req.method === 'POST'){
 		const record = req.body;
-		const result = await postRecord(record);
-		return sendOk(res, result);
+		const response = await postRecord(record);
+		return sendOk(res, response);
 	}
-	else if(req.method === 'PUT') {
+	else if (req.method === 'PUT'){
 		const record = req.body;
-		const result = await putRecord(record);
-		return sendOk(res, result);
+		const response = await putRecord(record);
+		return sendOk(res, response);
 	}
-	else if(req.method === 'DELETE') {
+	else if (req.method === 'DELETE'){
 		const id = req.query.id;
-		const result = await deleteRecord(id);
-		return sendOk(res, result);
+		const response = await deleteRecord(id);
+		return sendOk(res, response);
 	}
 }
