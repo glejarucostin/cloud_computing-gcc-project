@@ -80,3 +80,5 @@ Pagina de inserare a datelor in MongoDB
 
 
 Site-ul pe care se gaseste aplicatia cu deployment: cloud-computing-gcc-project-ku8hew2a1-glejarucostin.vercel.app
+
+https://youtu.be/X4tzOG1DmB0
