@@ -3,6 +3,12 @@ PROIECT CLOUD COMPUTING
 2022-2023
 
 
+
+Site-ul pe care se gaseste aplicatia cu deployment: cloud-computing-gcc-project-ku8hew2a1-glejarucostin.vercel.app
+
+https://youtu.be/X4tzOG1DmB0
+
+
 In cadrul acestui proiect am realizat o aplicatie WEB, dezvoltata in Next.js, care este un framework open-source pentru dezvoltarea aplicațiilor web bazate pe React. Acesta oferă un set de funcționalități încorporate pentru a permite dezvoltatorilor să creeze aplicații web cu o performanță ridicată și cu o experiență de utilizare mai bună. 
 
 In cadrul acestui proiect am dezvoltat o aplicatie care se ocupa de gestionarea listei de artisti participanti la un eveniment cultural, precum festivale, concerte, etc. In acest caz, am ales evenimentul Untold, desfasurat in Cluj Napoca, an de an 1 pe stadionul Cluj Arena. 
